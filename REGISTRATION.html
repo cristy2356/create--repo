@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+           <style>
+            body {background-color: rgb(238, 76, 27);}
+            h3   {color: rgb(7, 7, 7);}
+            </style>
+          <title> Registration form</title>
+
+    </head>
+          <body>
+            <center>
+                <style>
+                div {
+                    border: 10px solid rgb(0, 0, 0); height: 50px; width: 50px;
+                  }
+                </style>  
+         <center> 
+            </style> 
+            <h3>Register here!</h3>
+                <form action="/action_page.php">
+               <table>
+
+                <tr>
+                    <td>FIRSTNAME:</td>
+                    <td>
+                        <input type="text" name="FIRST">
+                    </td>
+                </tr>
+                    
+                <tr>
+                    <td>MIDDLE NAME:</td>   
+                    <td>
+                        <input type="text" name=" middle">
+                        
+                    </td>
+                </tr>  
+
+                <tr>
+                    <td>FAMILY NAME:</td>
+                    <td>
+                        <input type="text" name="FAMILY">
+                    </td>
+                </tr>   
+
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio"id="gender" name="gender" value="male">
+                        <label for="sex">Male</label><br>
+                        <input type="radio" id="gender" name="gender" value="female">
+                        <label for="sex">Female</label><br>
+                    </td>
+                </tr> 
+                
+                <tr>
+                    <td>Email Address:</td>
+                    <td>
+                        <input type="text" name="Email">
+                    </td>    
+                </tr>
+
+                <tr>
+                    <td><label for="home address">home address:</label></td>
+
+                    <td>
+                       <textarea id="address" name="address" rows="2" cols="20"></textarea>
+                    </td>   
+                </tr>
+               
+                <tr>
+                    <td>hobbies:</td>
+                
+                    <td>
+                        <input type="checkbox"id="hobbies1" name="hobbies1">
+                        <label for="hobbies1"> Computer games</label><br>
+                        <input type="checkbox" id="hobbies2" name="hobbies2">
+                        <label for="hobbies2"> Playing music instruments</label><br>
+                        <input type="checkbox" id="hobbies3" name="hobbies3">
+                        <label for="hobbies3"> Cooking</label><br>
+                        <input type="checkbox" id="hobbies4" name="hobbies4">
+                        <label for="hobbies4"> Drawing</label>
+                    </td>
+                
+                </tr>
+
+                <tr>
+                        <td>favorite color:</td>
+                    <td>
+                    <select name="favcolor" id="favcolor">
+                        <option value="white">white</option>
+                        <option value="black">black</option>
+                        <option value="blue">blue</option>
+                        <option value="yellow">yellow</option>
+                        <option value="green">green</option>
+                    </select>  
+                    </td>
+                </tr> 
+                <tr>
+                    <td><label for="say something about yourself">say something about yourself:</label></td>
+
+                <td>
+                   <textarea id="yourself" name="yourself" rows="2" cols="20"></textarea>
+                </td>   
+                </tr>
+
+                <td><input type="submit" name="submit" value="submit"></td>
+                <td><input type="submit" name="sumbit" value="clear"></td>  
+               </table>    
+                    
+            </form>
+           </center>
+
+        
+    
+        </body>
+    </html>
